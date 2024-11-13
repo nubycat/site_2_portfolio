@@ -1,0 +1,145 @@
+/* Шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Базовое обнуление стилей */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* База цветов */
+:root {
+    --primary-color: #48555B;
+    --accent-color: #00A4E5;
+}
+
+/* База стилей */
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 250px;
+}
+
+/* <!-- Секция "story" --> */
+.story {}
+
+.story_inner {
+    display: flex;
+    justify-content: center;
+}
+
+.story__title_h2 {
+    padding: 50px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2.30625px;
+    color: var(--primary-color);
+}
+
+.story__title_h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent-color);
+    display: block;
+    margin: 10px auto 0;
+}
+
+
+.story__left {
+    max-width: 405px;
+    margin-right: 76px;
+}
+
+.story__title_h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.story-text {}
+
+.story__right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.story__item {
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 29px;
+    align-items: center;
+    letter-spacing: 0.1875px;
+    width: 140px;
+    height: 224px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.story__item:nth-child(1) {
+    background-image: url(/img/we_plan.png);
+}
+
+.story__item:nth-child(2) {
+    background-image: url(/img/we_manage.png);
+}
+
+.story__item:nth-child(3) {
+    background-image: url(/img/we_buld.png);
+    margin-right: 0;
+}
+
+/* медиа адаптация */
+
+@media screen and (max-width: 1440px) {
+    .container {
+        padding: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 15px;
+    }
+
+    .story_inner {
+        flex-wrap: wrap;
+    }
+
+    .story__left {
+        margin-bottom: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .story__right {
+        flex-wrap: wrap;
+    }
+
+    .story__item {
+        margin-bottom: 20px;
+    }
+}
