@@ -30,6 +30,25 @@ body {
     padding: 0 250px;
 }
 
+/* <!-- Секция "header" --> */
+
+.header {
+    height: 769px;
+    background-image: url(/img/header_bg.png);
+    z-index: -3;
+}
+
+.logo {}
+
+.header__text {}
+
+.header__text_h1 {}
+
+.header__text_p {}
+
+.header__footer_p {}
+
+
 /* <!-- Секция "story" --> */
 .story {}
 
@@ -68,13 +87,21 @@ body {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 30px;
+    color: var(--primary-color);
 }
 
 .accent-color {
     color: var(--accent-color);
 }
 
-.story-text {}
+.story-text {
+    font-size: 13px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1875px;
+    color: var(--primary-color);
+}
 
 .story__right {
     display: flex;
