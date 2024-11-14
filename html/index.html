@@ -11,18 +11,41 @@
 <!-- Секция "header" -->
 <header class="header">
     <div class="container">
-        <div class="logo">
-            <img src="/img/projeco-logo.svg" alt="">
+        <div class="header_inner">
+            <div>
+                <img class="logo__header" src="/img/projeco-logo.svg" alt="">
+            </div>
+            <div class="header__text">
+                <h1 class="header__text_h1">PARTNER WITH KONSTUCT</h1>
+                <p class="header__text_p">An award-winning construction management firm</p>
+            </div>
+            <div class="header__footer">
+                <p class="header__footer_p">SCROLL DOWN</p>
+            </div>
         </div>
-        <div class="header__text">
-            <h1 class="header__text_h1">PARTNER WITH KONSTUCT</h1>
-            <p class="header__text_p">An award-winning construction management firm</p>
-        </div>
-        <div class="header__footer_p">SCROLL DOWN</div>
     </div>
 </header>
 
 <body>
+    <!-- Секция "navbar" -->
+
+    <section class="navbar">
+        <div class="container">
+            <div class="navbar_inner">
+                <div class="logo__navbar">
+                    <img src="/img/projeco-logo-black.svg" alt="">
+                </div>
+                <ul class="navbar__list">
+                    <li class="navbar__list_item">HOME</li>
+                    <li class="navbar__list_item">ABOUT</li>
+                    <li class="navbar__list_item">SERVICES</li>
+                    <li class="navbar__list_item">WORK</li>
+                    <li class="navbar__list_item">CONTACT</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <!-- Секция "story" -->
     <section class="story">
         <div class="container">
@@ -49,6 +72,121 @@
             </div>
         </div>
     </section>
+
+    <!-- Секция "services" -->
+    <section class="services">
+        <div class="container">
+            <div class="capabilites_inner">
+                <div class="capabilites__title">
+                    <div class="capabilites__title_left">
+                        <h2 class="capabilites__text_h2">OUR CAPABILITIES</h2>
+                    </div>
+                    <div class="capabilites__title_right">
+                        <p class="capabilites__text_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                            diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        <button class="capabilites__btn btn">
+                            <p class="capabilites__btn_text">ALL SERVICES</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="services_inner">
+                <div class="services_list">
+
+                    <div class="services__list_item">
+                        <div class="services__item_inner">
+                            <img src="/img/icon_1.svg" class="services__list_icon" alt="">
+                            <h3 class="services__list_h3">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                            <p class="services__list_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                    </div>
+
+                    <div class="services__list_item">
+                        <div class="services__item_inner">
+                            <img src="/img/icon_2.svg" class="services__list_icon" alt="">
+                            <h3 class="services__list_h3">STRUCTURE AUDIT AND MAINTENANCE</h3>
+                            <p class="services__list_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+                    </div>
+
+                    <div class="services__list_item">
+                        <div class="services__item_inner">
+                            <img src="/img/icon_3.svg" class="services__list_icon" alt="">
+                            <h3 class="services__list_h3">FACTORY CONSTRUCTION AND MODELING</h3>
+                            <p class="services__list_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                                diam
+                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Секция "touch" -->
+
+    <section class="touch">
+        <div class="container">
+            <div class="touch_inner">
+                <h2 class="touch-h2">Want to build something amazing?</h2>
+                <button class="touch__btn btn">GET IN TOUCH</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "signup" -->
+    <section class="signup">
+        <div class="signup_inner">
+            <h3 class="signup__h3">Newsletter Signup</h3>
+            <form action="" method="POST" class="email-form__inner">
+                <input type="email" id="email" name="email" class="email-form__input"
+                    placeholder="   test@youremail.com" required>
+                <button type="submit" class="email-form__btn btn">SIGNUP</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Секция "footer" -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer__inner_left">
+                    <h4 class="footer_h4">COMPANY</h4>
+                    <img class="footer_logo" src="/img/projeco-logo.svg" alt="">
+                    <p class="footer_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                        euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                </div>
+
+                <div class="footer__inner_centr">
+                    <h4 class="footer_h4">CONTACT US</h4>
+                    <p class="footer_p">213 Baker Street <br> Oriel City Kounty <br>7000 KNW, <br> Kountry Name
+                        <br><br>+23
+                        994 233 4022 <br><br>info@konstruct.com
+                    </p>
+                </div>
+
+                <div class="footer__inner_right">
+                    <img class="footer_icon" src="/img/footer_icon_1.svg" alt="">
+                    <img class="footer_icon" src="/img/footer_icon_2.svg" alt="">
+                    <img class="footer_icon" src="/img/footer_icon_3.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "dno" -->
+    <section class="dno">
+        <div class="footer_dno">
+            <p class="footer__dno_p">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+        </div>
+    </section>
+
 </body>
 
 </html>
