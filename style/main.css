@@ -38,7 +38,9 @@ body {
     z-index: -3;
 }
 
-.logo {}
+.logo {
+    margin: 41px auto 0;
+}
 
 .header__text {}
 
