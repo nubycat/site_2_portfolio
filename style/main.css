@@ -246,15 +246,15 @@ body {
 }
 
 .story__item:nth-child(1) {
-    background-image: url(img/we_plan.png);
+    background-image: url(/img/we_plan.png);
 }
 
 .story__item:nth-child(2) {
-    background-image: url(img/we_manage.png);
+    background-image: url(/img/we_manage.png);
 }
 
 .story__item:nth-child(3) {
-    background-image: url(img/we_buld.png);
+    background-image: url(/img/we_buld.png);
     margin-right: 0;
 }
 
