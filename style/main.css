@@ -46,7 +46,7 @@ body {
 
 .header {
     height: 768px;
-    background-image: url(img/header_bg.png);
+    background-image: url(/img/header_bg.png);
     /* z-index: -3; */
 }
 
